@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0x;
+}
+
+body {
+    overflow-x: hidden;
+    background-image: url("http://twistedsifter.com/wp-content/uploads/2013/05/animated-gifs-of-fighting-game-backgrounds-13.gif");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+#btn1{
+    margin-right: 15px;
+}
+
+.transparent-btn{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 120%;
+    color:#fff;
+    background-color:transparent;
+    border: 1px solid #fff;
+    padding: 10px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color ease 400ms;
+}
+.transparent-btn:hover{
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.images img {
+    position: relative;
+    top: 400px;
+    left: 10px;
+    width: 200px;
+}
+ 
+ /* img2.src{
+    position: relative;
+    top: 200px;
+    margin-left: 500px;
+    width: 260px;
+}  */
+
+ .images #img2{
+    position: relative;
+    top: 400px;
+    right: 10px; 
+    width: 200px;
+    transform :rotateY(180deg)
+
+ }
+
+
+      
